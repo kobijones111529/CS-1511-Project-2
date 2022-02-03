@@ -127,6 +127,7 @@ int main() {
         std::cout.setf(resetFlags);
         std::cout.precision(resetPrecision);
 
+        // Prompt user to start over
         std::string goAgain;
         std::cout << std::endl << "Would you like to enter more data? (y/n): ";
         std::cin >> goAgain;
